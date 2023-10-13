@@ -65,11 +65,11 @@
                 
                 // api And amount filed if you want change it this is sandbox
                 var amount = $("#amount").val();
-                var app="4f6o0cjiki2rfm34kfdadl1eqq";
-                var baseUrl="https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/";
-                var app_secret="2is7hdktrekvrbljjh44ll3d9l1dtjo4pasmjvs5vl5qr3fug4b";
-                var password="sandboxTokenizedUser02@12345";
-                var username="sandboxTokenizedUser02";
+                var app="YOUR_APP_KEY";
+                var baseUrl="https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/"; //IF SANDBOX
+                var app_secret="YOUR_APP_SCREATE_KEY";
+                var password="YOUR_USER_PASSWORD";
+                var username="YOUR_USERNAME";
                 
                 // Make an AJAX call to token.php to obtain the token
                 $.get("token.php",{
